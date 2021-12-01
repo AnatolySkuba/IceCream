@@ -3,8 +3,7 @@
  * Все паршалы подключаются сюда.
  */
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './base/normalize';
 @import './base/body';
 @import './base/reset';
 @import './components/buttons';
@@ -12,3 +11,11 @@
 @import './utils/mixins';
 @import './utils/variables';
 @import './utils/cubic';
+@import './layouts/header';
+@import './layouts/products';
+@import './layouts/about';
+@import './layouts/advantages';
+@import './layouts/gallery';
+@import './layouts/reviews';
+@import './layouts/contacts';
+@import './layouts/footer';
