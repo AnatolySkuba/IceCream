@@ -4,12 +4,12 @@
  */
 
 @import './base/normalize';
-@import './base/body';
 @import './base/reset';
-@import './components/buttons';
-@import './components/container';
 @import './utils/mixins';
 @import './utils/variables';
+@import './base/body';
+@import './components/buttons';
+@import './components/container';
 @import './utils/cubic';
 @import './layouts/header';
 @import './layouts/products';
