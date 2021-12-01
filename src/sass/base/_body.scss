@@ -1,0 +1,18 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  background: $white-color;
+  color: #000;
+}
+body.modal-open {
+  overflow: hidden;
+}
+::selection {
+  background: #d85674;
+}
+::-moz-selection {
+  background: #d85674;
+}
+::-webkit-selection {
+  background: #d85674;
+}
