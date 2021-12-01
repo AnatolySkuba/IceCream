@@ -77,7 +77,7 @@
     }
   }
   // Стили кнопки секции about
-  .about-btn {
+  .about__btn {
     @include flex-center();
     @include button();
     padding: 0 36px;
