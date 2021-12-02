@@ -38,5 +38,8 @@
 <path d="M1.25928 1L14.7408 15" />
 <path d="M1 14.7407L15 1.25924" />
 </symbol>
+<symbol id="menu-open" viewBox="0 0 32 32">
+<path style="fill: var(--color4)"  d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z" fill="none"/>
+</symbol>
 </defs>
 </svg>
