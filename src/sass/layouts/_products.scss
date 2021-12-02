@@ -48,7 +48,7 @@
 }
 
 .products__item--cream {
-	background-color: #ffb8ca;
+	background-color: $pink-light-color;
 	&::before {
 		content: "";
 		display: block;
@@ -91,7 +91,7 @@
 	}
 }
 .products__item--coffee {
-	background-color: #f0d1a5;
+	background-color: $cappucino-color;
 	&::before {
 		content: "";
 		display: block;
@@ -134,7 +134,7 @@
 	}
 }
 .products__item--milkshakes {
-	background-color: #c2e297;
+	background-color: $green-color;
 	&::before {
 		content: "";
 		display: block;
@@ -189,7 +189,7 @@
 	text-align: center;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
-	color: #fff;
+	color: $white-color;
 	&::after {
 		content: url(../images/products/three-points.svg);
 		display: block;
@@ -209,7 +209,7 @@
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.04em;
-	color: #fff;
+	color: $white-color;
 }
 .products__button {
 	width: 40px;
@@ -218,5 +218,5 @@
 	border-radius: 50%;
 }
 .products__icon {
-	fill: #d41443;
+	fill: $titel-color;
 }
