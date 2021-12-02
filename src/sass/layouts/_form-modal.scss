@@ -30,7 +30,7 @@
   max-width: 450px;
   width: 85%;
   min-height: 600px;
-  border: 1px solid $main-color;
+  border: 1px solid $titel-color;
   border-radius: 10px;
   top: 50%;
   left: 50%;
@@ -75,7 +75,7 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
 
-  color: $text-color;
+  color: $black-text-color;
 }
 
 .modal__input {
@@ -90,7 +90,7 @@
   transition: border $cubic;
 
   &:focus-within {
-    border: 1px solid $main-color;
+    border: 1px solid $titel-color;
   }
 }
 
@@ -116,7 +116,7 @@
   min-width: 150px;
   height: 45px;
   cursor: pointer;
-  background-color: $main-color;
+  background-color: $titel-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
   border: transparent;
@@ -135,7 +135,7 @@
 }
 
 .close {
-  fill: $main-color;
+  fill: $titel-color;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -150,7 +150,7 @@
   background-color: #ffffff;
   transition: background-color $cubic;
 
-  color: $main-color;
+  color: $titel-color;
 
   &:focus,
   &:hover {

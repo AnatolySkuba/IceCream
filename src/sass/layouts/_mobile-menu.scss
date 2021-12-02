@@ -36,7 +36,7 @@
   transition: fill $cubic;
   &:hover,
   &:focus {
-    fill: $main-color;
+    fill: #d41443;
     cursor: pointer;
   }
 }
@@ -59,7 +59,7 @@
   }
   &__close-icon:hover,
   &__close-icon:focus {
-    stroke: $main-color;
+    stroke: $titel-color;
   }
   &__item {
     border-top: 1px solid #e18298;
@@ -74,7 +74,7 @@
     transition: color $cubic;
     &:hover,
     &:focus {
-      color: $main-color;
+      color: $titel-color;
     }
   }
   &__icon {
@@ -83,7 +83,7 @@
     transition: fill $cubic;
     &:hover,
     &:focus {
-      fill: $main-color;
+      fill: #d41443;
       cursor: pointer;
     }
   }
