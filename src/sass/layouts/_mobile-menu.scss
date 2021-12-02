@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 250px;
+  width: 260px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,11 +40,39 @@
     cursor: pointer;
   }
 }
+
+.button-submit_mob{    
+  width: 210px;
+  height: 45px;
+  padding: 0 50px;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  background-color: $white-color;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: $titel-color;
+  transition: background-color $cubic;
+  &:hover,
+  &:focus {
+    background-color: $hover-btn;
+}
+
+@media screen and (min-width: 768px){
+  width: 190px;
+  height: 45px;
+  padding: 0 44px;
+}
+}
 .header-button_right.button-submit_mob {
-  margin: 0 20px 19px;
+  margin: 0 auto 19px;
   display: initial;
   @media screen and (min-width: 768px) {
-    margin: 0 34px 19px;
+    margin: 0 auto 19px;
   }
 }
 

@@ -107,7 +107,7 @@
   letter-spacing: 0.01em;
 }
 
-.button--center {
+.button-center {
   text-align: center;
 }
 
@@ -134,14 +134,10 @@
   }
 }
 
-.close {
-  fill: $titel-color;
+.close {  
   position: absolute;
   top: 8px;
-  right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  right: 8px; 
   height: 30px;
   width: 30px;
   cursor: pointer;
@@ -150,10 +146,24 @@
   background-color: #ffffff;
   transition: background-color $cubic;
 
-  color: $titel-color;
-
   &:focus,
   &:hover {
     background-color: #ffb8ca;
+  }
+}
+.modal__close-icon{  
+  position: relative;
+  top: 0.5px;
+  left: 0.4px;
+  width: 14px;
+  height: 14px;
+  stroke: $titel-color;
+  stroke-width: 4px;
+  transition: stroke $cubic;
+  
+  &:hover,
+  &:focus {
+    stroke: $hover-btnred;
+    cursor: pointer;
   }
 }
