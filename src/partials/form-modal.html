@@ -1,0 +1,46 @@
+<div class="backdrop-modal-form is-hidden-modal-form" data-form-modal>
+  <form action="#" class="modal-form">
+    <b class="modal__title">Make an order</b>
+    <div class="modal__area">
+      <label class="modal__field">
+        <span class="modal__text">Name</span>
+        <input class="modal__input" type="text" type="text"        
+        name="username"
+        minlength="2"
+        pattern="[a-zA-Z]+"
+        title="Name must include only English leters!"
+        required
+        placeholder="John" />
+      </label>
+      <label class="modal__field">
+        <span class="modal__text">Phone Number</span>
+        <input class="modal__input" type="tel" name="telephone" pattern="[+]{1}[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="096-000-00-00" placeholder="+61(0) 111 111 111" />
+      </label>
+      <label class="modal__field">
+        <span class="modal__text">Email</span>
+        <input class="modal__input" type="email" name="email" placeholder="john@gmail.com" />
+      </label>
+      <label for="product" class="modal__text">Choose product</label>
+      <select class="modal__input modal__input-select" id="product" name="product">
+        <option value="cream">Ice-cream</option>
+        <option value="coffee">Ice-coffee</option>
+        <option value="shake">Milkshakes</option>
+      </select>
+      <label class="modal__field">
+        <span class="modal__text">Quantity</span>
+        <input class="modal__input" type="number" name="amount" required min="1" max="10" />
+      </label>
+      <label class="modal__field">
+        <span class="modal__text">Comment</span>
+        <textarea class="modal__input comments" name="feedback" placeholder="Input text"></textarea>
+      </label>
+    </div>
+    <div class="button--center">
+      <button type="submit" class="modal__button">Submit</button>
+    </div>
+    <button type="button" class="close" data-form-modal-close>
+      <i class="fas fa-times"></i>
+    </button>
+  </form>
+</div>
