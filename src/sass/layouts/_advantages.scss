@@ -1,0 +1,26 @@
+.advantage__item {
+	&::before {
+		margin-bottom: 16px;
+
+		content: url(../images/advantages/advantage-icon1-1x.png);
+		display: block;
+		width: 100%;
+		height: 100%;
+		font-size: 0;
+
+		// position: absolute;
+		// bottom: 0;
+		// left: 0;
+		// transform: translateX(0);
+	}
+}
+
+.advantage__text {
+	// margin-top: 16px;
+	// font-family: DM Sans;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 170%;
+	color: #000000;
+}
