@@ -1,7 +1,9 @@
 .section__subtitle--margin {
+	text-align: center;
 	margin-bottom: 15px;
 }
 .section__title--margin {
+	text-align: center;
 	margin-bottom: 141px;
 	@media screen and(min-width:768px) {
 		margin-bottom: 150px;
@@ -26,10 +28,10 @@
 		border-radius: 24px;
 
 		@media screen and(max-width:767px) {
+			margin-left: auto;
+			margin-right: auto;
 			&:not(:last-child) {
 				margin-bottom: 130px;
-				margin-left: auto;
-				margin-right: auto;
 			}
 		}
 		@media screen and(min-width:768px) {
