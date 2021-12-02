@@ -55,7 +55,7 @@
   font-size: 16px;
   line-height: 1.31;
 
-  color: $titel-color;
+  color: $title-color;
   transition: background-color $cubic;
   &:hover,
   &:focus {
@@ -87,7 +87,7 @@
   }
   &__close-icon:hover,
   &__close-icon:focus {
-    stroke: $titel-color;
+    stroke: $title-color;
   }
   &__item {
     border-top: 1px solid #e18298;
@@ -102,7 +102,7 @@
     transition: color $cubic;
     &:hover,
     &:focus {
-      color: $titel-color;
+      color: $title-color;
     }
   }
   &__icon {

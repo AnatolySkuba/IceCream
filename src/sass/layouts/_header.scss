@@ -69,7 +69,7 @@
     transition: color $cubic;
     &:hover,
     &:focus {
-      color: $titel-color;
+      color: $title-color;
     }
   }
   
@@ -78,7 +78,7 @@
     // height: 12px;
     height: 22px;
     padding: 0;
-    color: $titel-color;
+    color: $title-color;
     border: none;
     background: transparent;
     margin-top: 19px;
@@ -111,7 +111,7 @@
     font-size: 16px;
     line-height: 1.31;
   
-    color: $titel-color;
+    color: $title-color;
     transition: background-color $cubic;
     &:hover,
     &:focus {
@@ -124,6 +124,7 @@
   
   // ------------------HERO----------------------- //
   .hero {
+    padding: 0;
     height: 665px;
     position: relative;
     display: flex;
@@ -208,7 +209,7 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;    
-    fill: $titel-color;
+    fill: $title-color;
     background-color: $white-color;
     transition: background-color $cubic;
     &:hover,
@@ -294,7 +295,7 @@
     line-height: 0.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;  
-    color: $titel-color;
+    color: $title-color;
     @media screen and (min-width: 768px) {
       margin-bottom: 20px;
       font-size: 34px;
@@ -392,7 +393,7 @@
     line-height: 1.14;
     letter-spacing: 4%;
   
-    color: $titel-color;
+    color: $title-color;
     @media screen and (min-width: 1280px) {
       margin-bottom: 2px;
       font-size: 46px;
@@ -458,7 +459,7 @@
     width: 63px;
   
     color: $white-color;
-    background-color: $titel-color;
+    background-color: $title-color;
   
     &:hover,
     &:focus {
@@ -474,7 +475,7 @@
   .hero__link-him {
     width: 83px;
   
-    color: $titel-color;
+    color: $title-color;
     background-color: $white-color;
   
     &:hover,

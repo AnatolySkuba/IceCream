@@ -30,7 +30,7 @@
   max-width: 450px;
   width: 85%;
   min-height: 600px;
-  border: 1px solid $titel-color;
+  border: 1px solid $title-color;
   border-radius: 10px;
   top: 50%;
   left: 50%;
@@ -90,7 +90,7 @@
   transition: border $cubic;
 
   &:focus-within {
-    border: 1px solid $titel-color;
+    border: 1px solid $title-color;
   }
 }
 
@@ -116,7 +116,7 @@
   min-width: 150px;
   height: 45px;
   cursor: pointer;
-  background-color: $titel-color;
+  background-color: $title-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
   border: transparent;
@@ -157,7 +157,7 @@
   left: 0.4px;
   width: 14px;
   height: 14px;
-  stroke: $titel-color;
+  stroke: $title-color;
   stroke-width: 4px;
   transition: stroke $cubic;
   
