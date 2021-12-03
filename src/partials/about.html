@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<section class="about">
+<section class="about" id="about">
 	<div class="container">
-		<p class="about__sub-title">tradition and love</p>
-		<h2 class="title">how it’s made?</h2>
+		<div class="about__wrap">
+			<p class="about__subtitle">tradition and love</p>
+			<h2 class="about__title">how it’s made?</h2>
+		</div>
 		<!-- img -->
-
-		<div>
-			<p>
-				Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
-				eros. Maecenas eleifend erat at justo fringilla.
-			</p>
-			<p>
-				Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
-				placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-				Aliquam erat volutpat. Aenean accumsan.
-			</p>
-			<button>Read more</button>
+		<div class="about__box">
+			<div class="about__picture">
+				<picture>
+					<source media="(min-width: 1280px)" srcset="./images/cow/cow-desc1x.png 1x, ./images/cow/cow-desc2x.png 2x" />
+					<source
+						media="(min-width: 768px)"
+						srcset="./images/cow/cow-tablet1x.png 1x, ./images/cow/cow-tablet2x.png 2x"
+					/>
+					<source
+						media="(min-width: 480px)"
+						srcset="./images/cow/cow-mobile1x.png 1x, ./images/cow/cow-mobile2x.png 2x"
+					/>
+					<img src="#" alt="" srcset="./images/cow/cow-mobile1x.png 1x, ./images/cow/cow-mobile2x.png 2x" />
+				</picture>
+			</div>
+			<div class="about__content">
+				<p class="about__text about__text--black">
+					Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
+					eros. Maecenas eleifend erat at justo fringilla.
+				</p>
+				<p class="about__text about__text--grey">
+					Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
+					placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+					tincidunt. Aliquam erat volutpat. Aenean accumsan.
+				</p>
+				<button>Read more</button>
+			</div>
 		</div>
 	</div>
 </section>
