@@ -16,7 +16,7 @@
   justify-content: flex-end;
   padding: 0 37px;
   background-color: $white-color;
-  color: $titel-color;
+  color: $title-color;
 
   &:hover,
   &:focus {
@@ -31,7 +31,7 @@
   @include flex-center();
   padding: 0 40px;
   @include button();
-  color: $titel-color;
+  color: $title-color;
   background-color: $white-color;
 
   @media screen and (max-width: 767px) {
@@ -52,7 +52,7 @@
   @include flex-center();
   @include button();
   padding: 0 33px;
-  background: $titel-color;
+  background: $title-color;
   color: $white-color;
   @media screen and (max-width: 767px) {
     padding: 0 15px;
@@ -65,7 +65,7 @@
 }
 // Подключенная иконка-стрелка вправо внутри кнопки. Стили
 .fa-angle-right {
-  color: $titel-color;
+  color: $title-color;
   text-align: center;
   padding-left: 13px;
   padding-top: 2px;
@@ -81,7 +81,7 @@
   @include flex-center();
   @include button();
   padding: 0 36px;
-  color: $titel-color;
+  color: $title-color;
   background-color: $white-color;
 
   &:hover,
