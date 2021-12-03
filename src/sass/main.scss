@@ -3,22 +3,23 @@
  * Все паршалы подключаются сюда.
  */
 
-@import './base/normalize';
-@import './base/reset';
-@import './utils/mixins';
-@import './utils/variables';
+@import "./base/normalize";
+@import "./base/reset";
+@import "./utils/mixins";
+@import "./utils/variables";
 @import "./base/section";
-@import './base/body';
-@import './components/buttons';
-@import './components/container';
-@import './utils/cubic';
-@import './layouts/header';
-@import './layouts/products';
-@import './layouts/about';
-@import './layouts/advantages';
-@import './layouts/gallery';
-@import './layouts/reviews';
-@import './layouts/contacts';
-@import './layouts/footer';
-@import './layouts/mobile-menu';
-@import './layouts/form-modal';
+@import "./base/body";
+@import "./components/buttons";
+@import "./components/container";
+@import "./utils/cubic";
+@import "./layouts/header";
+@import "./layouts/products";
+@import "./layouts/about";
+@import "./layouts/advantages";
+@import "./layouts/gallery";
+@import "./layouts/reviews";
+@import "./layouts/contacts";
+@import "./layouts/footer";
+@import "./layouts/mobile-menu";
+@import "./layouts/form-modal";
+@import "./layouts/reviews";
