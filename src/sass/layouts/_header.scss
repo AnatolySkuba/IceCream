@@ -69,7 +69,7 @@
     transition: color $cubic;
     &:hover,
     &:focus {
-      color: $titel-color;
+      color: $title-color;
     }
   }
   
@@ -78,7 +78,7 @@
     // height: 12px;
     height: 22px;
     padding: 0;
-    color: $titel-color;
+    color: $title-color;
     border: none;
     background: transparent;
     margin-top: 19px;
@@ -111,7 +111,7 @@
     font-size: 16px;
     line-height: 1.31;
   
-    color: $titel-color;
+    color: $title-color;
     transition: background-color $cubic;
     &:hover,
     &:focus {
@@ -124,6 +124,7 @@
   
   // ------------------HERO----------------------- //
   .hero {
+    padding: 0;
     height: 665px;
     position: relative;
     display: flex;
@@ -207,9 +208,8 @@
     padding: 0;
     border-radius: 50%;
     border: none;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    fill: $titel-color;
+    cursor: pointer;    
+    fill: $title-color;
     background-color: $white-color;
     transition: background-color $cubic;
     &:hover,
@@ -272,7 +272,7 @@
     }
   }
   
-  .title-box {
+  .hero__box {
     position: absolute;
     top: 193px;
     width: 218px;
@@ -294,9 +294,8 @@
     font-size: 48px;
     line-height: 0.5;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
-  
-    color: $titel-color;
+    text-transform: uppercase;  
+    color: $title-color;
     @media screen and (min-width: 768px) {
       margin-bottom: 20px;
       font-size: 34px;
@@ -309,67 +308,28 @@
     }
   }
   
+  .title-first {
+    font-family: Titan One, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 0.04em;
   
+    color: $white-color;
+    @media screen and (min-width: 768px) {
+      font-size: 22px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 38px;
+    }
+  }
+  .title-last {
+    line-height: 0.9;
+  }
   
   .button-box {
     display: flex;
   }
-  
-  // .button-hero1 {
-  //   width: 62.4px;
-  //   height: 24px;
-  //   margin-right: 15px;
-  //   border-radius: 22px;
-  //   border: none;
-  //   cursor: pointer;
-  //   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  //   background-color: $titel-color;
-  
-  //   font-weight: 400;
-  //   font-size: 8px;
-  //   line-height: 1.25;
-  
-  //   color: $white-color;
-  //   transition: background-color $cubic;
-  //   &:hover,
-  //   &:focus {
-  //     background-color: $hover-btnred;
-  //   }
-  //   @media screen and (min-width: 1280px) {
-  //     width: 105px;
-  //     height: 40px;
-  //     font-size: 14px;
-  //     line-height: 1.28;
-  //   }
-  // }
-  
-  // .button-hero2 {
-  //   width: 82.8px;
-  //   height: 24px;
-  //   border-radius: 22px;
-  //   border: none;
-  //   cursor: pointer;
-  //   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  //   background-color: $white-color;
-  
-  //   font-weight: 400;
-  //   font-size: 8px;
-  //   line-height: 1.25;
-  
-  //   color: $titel-color;
-  //   transition: background-color $cubic;
-  //   &:hover,
-  //   &:focus {
-  //     background-color: $hover-btn;
-  //   }
-  //   @media screen and (min-width: 1280px) {
-  //     width: 140px;
-  //     height: 40px;
-  //     font-size: 14px;
-  //     line-height: 1.28;
-  //   }
-  // }
-  
+
   .hero__girl {
     display: block;
     position: absolute;
@@ -433,7 +393,7 @@
     line-height: 1.14;
     letter-spacing: 4%;
   
-    color: $titel-color;
+    color: $title-color;
     @media screen and (min-width: 1280px) {
       margin-bottom: 2px;
       font-size: 46px;
@@ -495,11 +455,11 @@
     }
   }
   
-  .hero__link--products {
+  .hero__link-products {
     width: 63px;
   
     color: $white-color;
-    background-color: $titel-color;
+    background-color: $title-color;
   
     &:hover,
     &:focus {
@@ -512,10 +472,10 @@
     }
   }
   
-  .hero__link--him {
+  .hero__link-him {
     width: 83px;
   
-    color: $titel-color;
+    color: $title-color;
     background-color: $white-color;
   
     &:hover,
