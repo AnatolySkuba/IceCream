@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+hr {
+  height: 0;
+  color: inherit;
+}
+
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+legend {
+  padding: 0;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  background: #fff;
+  color: #000;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+::-moz-selection {
+  background: #d85674;
+}
+
+::selection {
+  background: #d85674;
+}
+
+::-moz-selection {
+  background: #d85674;
+}
+
+::-webkit-selection {
+  background: #d85674;
+}
+
+.header__button-right {
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 37px;
+  background-color: #fff;
+  color: #d41443;
+}
+
+.header__button-right:hover, .header__button-right:focus {
+  background-color: #ecebeb;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button-right {
+    display: none;
+  }
+}
+
+.contacts-button__white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 40px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  color: #d41443;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-button__white {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts-button__white {
+    margin-left: 15px;
+  }
+}
+
+.contacts-button__white:hover, .contacts-button__white:focus {
+  background: #ecebeb;
+}
+
+.contacts-button__red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  padding: 0 33px;
+  background: #d41443;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-button__red {
+    padding: 0 15px;
+    margin: 0 auto 8px;
+  }
+}
+
+.contacts-button__red:hover, .contacts-button__red:focus {
+  background-color: #c7133e;
+}
+
+.fa-angle-right {
+  color: #d41443;
+  text-align: center;
+  padding-left: 13px;
+  padding-top: 2px;
+}
+
+.fa-angle-right.fa-angle-right__red {
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .fa-angle-right.fa-angle-right__red {
+    padding-left: 8px;
+  }
+}
+
+.about__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  padding: 0 36px;
+  color: #d41443;
+  background-color: #fff;
+}
+
+.about__btn:hover, .about__btn:focus {
+  background-color: #ecebeb;
+}
+
+@media screen and (max-width: 767px) {
+  .about__btn {
+    margin: auto;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 34px;
+    padding-right: 34px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 115px;
+    padding-right: 115px;
+    max-width: 1280px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
