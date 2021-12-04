@@ -1,1 +1,15 @@
+.customer-reviews {
+	padding-top: 80px;
+	padding-bottom: 43px;
+}
 
+.customer-reviews__slider {
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.customer-reviews__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
