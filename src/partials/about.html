@@ -38,11 +38,16 @@
 					tincidunt.
 				</p>
 				<p class="about__text about__text--grey about__text--margin-bottom">Aliquam erat volutpat. Aenean accumsan.</p>
-				<button class="about__btn" type="button">Read more</button>
+				<button class="about__btn" type="button" data-about-modal-open>Read more</button>
 			</div>
 		</div>
 	</div>
-	<div class="about__backdrop">
-		<div class="about__modal"></div>
+	<div class="about__backdrop is-hidden" data-about-modal>
+		<div class="about__modal">
+			<button class="button-close" type="button" data-about-modal-close>x</button>
+			<img class="about__modal-image--position-first" src="./images/about-modal/recipe1.jpg" alt="" />
+			<img class="about__modal-image--position-second" src="./images/about-modal/recipe2.jpg" alt="" />
+			<img class="about__modal-image--position-third" src="./images/about-modal/recipe3.jpg" alt="" />
+		</div>
 	</div>
 </section>
