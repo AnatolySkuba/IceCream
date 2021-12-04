@@ -66,6 +66,7 @@
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	color: $title-color;
+	transition: all $cubic;
 
 	@media screen and (min-width: 768px) {
 		font-size: 48px;
@@ -88,6 +89,10 @@
 			margin-bottom: 55px;
 		}
 	}
+
+	&:hover {
+		transform: scale(1.2);
+	}
 }
 
 .about__box {
@@ -102,10 +107,15 @@
 	height: 280px;
 	margin-left: auto;
 	margin-right: auto;
+	transition: width 2s, height 2s, transform 2s;
 
 	@media screen and (min-width: 768px) {
 		width: 340px;
 		height: 340px;
+
+		&:hover {
+			transform: rotate(360deg);
+		}
 	}
 
 	@media screen and (min-width: 1280px) {
@@ -137,6 +147,7 @@
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 1.62;
+	transition: all $cubic;
 
 	@media screen and (min-width: 768px) {
 		font-size: 14px;
@@ -168,6 +179,10 @@
 			line-height: 1.94;
 		}
 	}
+
+	&:hover {
+		transform: scale(1.1);
+	}
 }
 
 .about__text--margin-top {
@@ -189,7 +204,6 @@
 
 // BUTTON
 .about__btn {
-	// font-size: 14px;
 	transition: background-color $cubic;
 }
 
@@ -204,6 +218,7 @@
 	left: 0;
 	top: 0;
 	z-index: 5;
+	transition: opacity 2s, visibility 2s;
 
 	background: linear-gradient(to right, rgba(204, 43, 94, 0.25), rgba(117, 58, 136, 0.5));
 }
@@ -218,12 +233,18 @@
 	padding: 30px;
 	position: relative;
 
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+
 	background: linear-gradient(to right, #e96443, #904e95);
 	border-radius: 15px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
 	@media screen and (max-width: 767px) {
-		width: 100%;
+		max-width: 90vw;
+		margin: 0 auto;
 	}
 
 	@media screen and (min-width: 768px) {
@@ -239,24 +260,21 @@
 	height: 700px;
 }
 
-.modal-test {
-	color: whitesmoke;
-}
-
 .button-close {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	width: 30px;
 	height: 30px;
+	border-radius: 50%;
 	// display: flex;
 	// justify-content: center;
 	// align-items: center;
-	border: 1px solid #d38312;
+	border: none;
 	background-color: transparent;
 	color: #d38312;
-	transition: color;
 	cursor: pointer;
+	transition: color $cubic, border $cubic;
 
 	&:hover,
 	&:focus {
@@ -269,10 +287,36 @@
 	height: 18px;
 }
 
-.about__modal-image--position-first {
-	width: 100%;
+.modal__text {
+	font-size: 15px;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
 }
 
-.about__modal-image--position-second {
-	width: 100%;
+.modal__before-text {
+	color: yellow;
+}
+
+.modal__wrap {
+	margin-top: 20px;
+}
+
+.modal__main-text {
+	color: white;
+	font-size: 16px;
+	min-width: 250px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 12px;
+	}
+
+	@media screen and (max-width: 767px) {
+		max-width: 440px;
+	}
+
+	&:first-child {
+		margin-bottom: 20px;
+	}
 }
