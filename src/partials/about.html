@@ -1,1 +1,91 @@
 <!DOCTYPE html>
+<section class="about about--background" id="howitsmade">
+	<div class="container">
+		<div class="about__wrap">
+			<p class="about__subtitle about__subtitle--position">tradition and love</p>
+			<h2 class="about__title about__title--margin">how it’s made?</h2>
+		</div>
+
+		<div class="about__box">
+			<div class="about__picture">
+				<picture>
+					<source media="(min-width: 1280px)" srcset="./images/cow/cow-desc1x.png 1x, ./images/cow/cow-desc2x.png 2x" />
+					<source
+						media="(min-width: 768px)"
+						srcset="./images/cow/cow-tablet1x.png 1x, ./images/cow/cow-tablet2x.png 2x"
+					/>
+					<source
+						media="(min-width: 480px)"
+						srcset="./images/cow/cow-mobile1x.png 1x, ./images/cow/cow-mobile2x.png 2x"
+					/>
+					<img
+						class="about__image"
+						src="#"
+						alt=""
+						srcset="./images/cow/cow-mobile1x.png 1x, ./images/cow/cow-mobile2x.png 2x"
+					/>
+				</picture>
+			</div>
+
+			<div class="about__content">
+				<p class="about__text about__text--black about__text--margin-top about__text--weight">
+					Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
+					eros. Maecenas eleifend erat at justo fringilla.
+				</p>
+				<p class="about__text about__text--grey about__text--position about__text--height">
+					Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
+					placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+					tincidunt.
+				</p>
+				<p class="about__text about__text--grey about__text--margin-bottom">Aliquam erat volutpat. Aenean accumsan.</p>
+				<button class="about__btn" type="button" data-about-modal-open>Read more</button>
+			</div>
+		</div>
+	</div>
+	<div class="about__backdrop is-hidden" data-about-modal>
+		<div class="about__modal">
+			<button class="button-close" type="button" data-about-modal-close>x</button>
+			<div>
+				<p class="modal__text">
+					<span class="modal__before-text">2</span>
+					cups heavy cream
+				</p>
+				<p class="modal__text">
+					<span class="modal__before-text">1</span>
+					cup whole milk
+				</p>
+				<p class="modal__text">
+					<span class="modal__before-text">⅔</span>
+					cup sugar
+				</p>
+				<p class="modal__text">
+					<span class="modal__before-text">⅛</span>
+					teaspoon fine sea salt
+				</p>
+				<p class="modal__text">
+					<span class="modal__before-text">6</span>
+					large egg yolks
+				</p>
+				<p class="modal__text">
+					<span class="modal__before-text">Your choice</span>
+					of flavoring
+				</p>
+			</div>
+
+			<div class="modal__wrap">
+				<p class="modal__main-text">
+					In a small pot, simmer heavy cream, milk, sugar and salt until sugar completely dissolves, about 5 minutes.
+					Remove pot from heat. In a separate bowl, whisk yolks. Whisking constantly, slowly whisk about a third of the
+					hot cream into the yolks, then whisk the yolk mixture back into the pot with the cream. Return pot to
+					medium-low heat and gently cook until mixture is thick enough to coat the back of a spoon (about 170 degrees
+					on an instant-read thermometer).
+				</p>
+				<p class="modal__main-text">
+					Strain through a fine-mesh sieve into a bowl. Cool mixture to room temperature. Cover and chill at least 4
+					hours or overnight. Churn in an ice cream machine according to manufacturers’ instructions. Serve directly
+					from the machine for soft serve, or store in freezer until needed.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

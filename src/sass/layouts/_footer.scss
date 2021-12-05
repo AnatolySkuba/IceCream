@@ -1,13 +1,13 @@
-ul {
-	list-style: none;
-}
 .footer {
 	background-color: #fff5f6;
 	width: 100%;
+	padding-bottom: 25px;
 }
+
 .footer-slogan__item:not(:last-child) {
 	margin-bottom: 17px;
 }
+
 .footer-left {
 	margin-bottom: 43px;
 
@@ -19,6 +19,7 @@ ul {
 		width: 340px;
 	}
 }
+
 .footer-first__text {
 	font-family: Titan One, sans-serif;
 	font-size: 18px;
@@ -35,6 +36,7 @@ ul {
 		line-height: 1.13;
 	}
 }
+
 .footer-second__text {
 	font-family: Titan One, sans-serif;
 	font-size: 34px;
@@ -44,21 +46,23 @@ ul {
 
 	color: #d41443;
 
-	@media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
 		font-size: 48px;
 	}
+  
 	@media screen and (min-width: 1200px) {
 		font-size: 58px;
 		line-height: 1.14;
 	}
 }
+
 .footer-social {
 	display: flex;
 	align-items: right;
 	justify-content: end;
-
 	margin-bottom: 46px;
 }
+
 .footer-social__link {
 	width: 100%;
 	height: 100%;
@@ -73,6 +77,7 @@ ul {
 		background-color: #d41443;
 	}
 }
+
 .footer-social__item {
 	width: 32px;
 	height: 32px;
@@ -92,6 +97,7 @@ ul {
 	justify-content: end;
 	color: #d41443;
 }
+
 .pre-telefon {
 	font-family: DM Sans;
 	font-style: normal;
@@ -108,6 +114,7 @@ ul {
 		font-size: 16px;
 	}
 }
+
 .footer-contacts__tel {
 	display: flex;
 	font-family: DM Sans;
@@ -115,9 +122,7 @@ ul {
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 1.86;
-
 	text-align: right;
-
 	color: #d41443;
 	margin-bottom: 43px;
 
@@ -128,6 +133,7 @@ ul {
 		font-size: 16px;
 	}
 }
+
 .footer-bottom {
 	text-align: center;
 	border-top: 1px solid #e1e1e1;
@@ -148,6 +154,7 @@ ul {
 		height: 45px;
 	}
 }
+
 .footer-bottom__text {
 	font-family: DM Sans;
 	font-weight: bold;
@@ -159,13 +166,14 @@ ul {
 		width: 150px;
 		margin-left: auto;
 		margin-right: auto;
-		// justify-content: space-between;
 	}
+  
 	@media screen and (min-width: 768px) {
 		font-size: 14px;
 		line-height: 1.86;
 	}
 }
+
 .footer-container {
 	@media screen and (min-width: 768px) {
 		display: flex;

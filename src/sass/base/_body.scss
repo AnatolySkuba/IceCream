@@ -1,19 +1,19 @@
 body {
 	font-family: "DM Sans", sans-serif;
 	font-weight: 500;
-	font-style: normal;
-	background: $white-color;
+	// background: $white-color;
+	background: #fff5f6;
 	color: #000;
 }
 body.modal-open {
 	overflow: hidden;
 }
-::selection {
-	background: #d85674;
-}
-::-moz-selection {
-	background: #d85674;
-}
-::-webkit-selection {
-	background: #d85674;
-}
+// ::selection {
+//   background: #d85674;
+// }
+// ::-moz-selection {
+//   background: #d85674;
+// }
+// ::-webkit-selection {
+//   background: #d85674;
+// }
