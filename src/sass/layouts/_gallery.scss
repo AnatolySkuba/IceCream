@@ -8,7 +8,7 @@
 	justify-content: center;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
 	.gallery__colum {
 		&:not(:last-child) {
 			margin-right: 5px;
@@ -80,7 +80,7 @@
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 	.gallery__colum {
 		&:not(:last-child) {
 			margin-right: 7px;
