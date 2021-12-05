@@ -38,8 +38,11 @@
 <path d="M1.25928 1L14.7408 15" />
 <path d="M1 14.7407L15 1.25924" />
 </symbol>
-<symbol id="menu-open" viewBox="0 0 20 12">
-<path style="fill: var(--color4)"  d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z" fill="none"/>
+<symbol id="menu-open" viewBox="0 0 20 14">
+<path d="M0 1H20" stroke="#D41443" fill="none"/>
+<path d="M0 7H20" stroke="#D41443" fill="none"/>
+<path d="M0 13H20" stroke="#D41443" fill="none"/>
+ 
 </symbol>
 <symbol id="icon-btn-arrow-white" viewBox="0 0 19 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l11.553 12.8-11.553 12.8"></path>
