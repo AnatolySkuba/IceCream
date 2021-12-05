@@ -136,14 +136,14 @@
 		</ul>
 
 		<div class="locations-button-wrapp">
-			<button type="button" class="locations-button locations-button--red" data-form-modal2-open>
+			<button type="button" class="locations-button locations-button--red" data-locations-modal-open>
 				Our Locations
 				<svg class="locations-button__icon" width="10" height="10">
 					<use href="./images/icons.svg#icon-btn-arrow-white"></use>
 				</svg>
 			</button>
 
-			<button type="button" class="locations-button locations-button--white" data-form-modal2-open>
+			<button type="button" class="locations-button locations-button--white" data-franchise-modal-open>
 				Franchise
 				<svg class="locations-button__icon" width="10" height="10">
 					<use href="./images/icons.svg#icon-btn-arrow-pink"></use>
@@ -151,25 +151,22 @@
 			</button>
 		</div>
 
-		<div class="backdrop is-hidden" data-locations-modal>
-    <div class="locations-modal">
-      <button
-        type="button"
-        class="locations-modal__button"
-        data-locations-modal-close
-      >
-        <svg class="locations-modal__icon" width="35" height="35">
-          <use href="./images/icons.svg#modal-icon-close"></use>
-        </svg>
-      </button>
-      <p class="locations-modal__title">Our locations 🍧</p>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20940875.019416016!2d-98.51639794442954!3d38.92862475225225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1638716328752!5m2!1sru!2sua"
-        class="locations-modal-map"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-    </div>
+		<div class="locations-backdrop is-hidden" data-locations-modal>
+			<div class="locations-modal">
+				<button type="button" class="locations-modal__button" data-locations-modal-close>
+					<svg class="locations-modal__icon" width="35" height="35">
+						<use href="./images/icons.svg#modal-icon-close"></use>
+					</svg>
+				</button>
+				<p class="locations-modal__title">Our locations 🍧</p>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20940875.019416016!2d-98.51639794442954!3d38.92862475225225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1638716328752!5m2!1sru!2sua"
+					class="locations-modal-map"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+				></iframe>
+			</div>
+		</div>
 	</div>
 </section>
