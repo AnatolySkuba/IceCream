@@ -201,6 +201,7 @@ button {
 .section {
   padding-top: 120px;
   padding-bottom: 100px;
+  background-color: #e5e5e5;
 }
 
 @media screen and (min-width: 768px) {
@@ -2280,7 +2281,19 @@ body.modal-open {
   background-image: url(/images/customer-reviews/dots.png);
   position: absolute;
   top: -18px;
-  left: 45%;
+  left: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .customer-reviews__title::before {
+    top: -14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .customer-reviews__title::before {
+    top: -15px;
+  }
 }
 
 .customer-review__dots {

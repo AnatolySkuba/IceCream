@@ -76,7 +76,15 @@
 		background-image: url(/images/customer-reviews/dots.png);
 		position: absolute;
 		top: -18px;
-		left: 45%;
+		left: 40%;
+
+		@media screen and (min-width: 768px) {
+			top: -14px;
+		}
+
+		@media screen and (min-width: 1280px) {
+			top: -15px;
+		}
 	}
 }
 
