@@ -203,7 +203,14 @@
 
 // BUTTON
 .about__btn {
-	transition: background-color $cubic;
+	width: 176px;
+	height: 44px;
+
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+
+	transition: background-color $cubic, box-shadow 200ms;
 }
 
 // MODAL
