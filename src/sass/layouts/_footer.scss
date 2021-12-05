@@ -4,11 +4,11 @@ ul {
 .footer {
 	background-color: #fff5f6;
 	width: 100%;
-	padding-top: 113px;
+	// padding-top: 113px;
 	padding-bottom: 25px;
-	@media screen and (min-width: 768px) {
-		padding-top: 165px;
-	}
+	// @media screen and (min-width: 768px) {
+	// 	padding-top: 165px;
+	// }
 }
 .footer-slogan__item:not(:last-child) {
 	margin-bottom: 17px;
