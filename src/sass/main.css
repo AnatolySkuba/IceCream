@@ -201,7 +201,6 @@ button {
 .section {
   padding-top: 120px;
   padding-bottom: 100px;
-  background-color: #e5e5e5;
 }
 
 @media screen and (min-width: 768px) {
@@ -273,6 +272,7 @@ button {
 .customer-reviews {
   padding-top: 80px;
   padding-bottom: 43px;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
