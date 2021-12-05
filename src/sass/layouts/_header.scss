@@ -1,8 +1,6 @@
-.header {
-	position: relative;
+.header {	
 	background-color: $pink-light-color;
-}
-.header .container {
+& .container {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -22,16 +20,17 @@
 		padding-top: 37px;
 		padding-left: 34px;
 	}
-	@media screen and (min-width: 1280px) {
-		left: calc((100% - 1280px) / 2);
+	@media screen and (min-width: 1200px) {
+		left: calc((100% - 1200px) / 2);
 		padding-left: 46px;
 	}
+}
 }
 
 .nav {
 	display: flex;
 	align-items: baseline;
-	@media screen and (max-width: 1279px) {
+	@media screen and (max-width: 1199px) {
 		display: none;
 	}
 }
@@ -44,7 +43,7 @@
 		top: 37px;
 		left: 34px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		left: 46px;
 	}
 }
@@ -75,7 +74,6 @@
 
 .button-burger {
 	width: 20px;
-	// height: 12px;
 	height: 22px;
 	padding: 0;
 	color: $title-color;
@@ -88,7 +86,7 @@
 		margin-top: -5px;
 		margin-right: 30px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		display: none;
 	}
 	&:hover,
@@ -124,9 +122,6 @@
 
 // ------------------HERO----------------------- //
 .hero {
-	padding: 0;
-	height: 665px;
-	position: relative;
 	display: flex;
 	overflow: hidden;
 	background-color: $pink-light-color;
@@ -134,11 +129,14 @@
 	@media screen and (min-width: 767px) {
 		height: 400px;
 	}
-	@media screen and (min-width: 1279px) {
+	@media screen and (min-width: 1199px) {
 		height: 665px;
-		justify-content: flex-end;
+		justify-content:center;
+		& .container{
+			margin: 0;
+		}
 	}
-	& .container {
+	& .container{
 		position: relative;
 	}
 }
@@ -155,10 +153,10 @@
 	@media screen and (min-width: 768px) {
 		max-width: 768px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		left: 77px;
 		bottom: 45px;
-		max-width: 1280px;
+		max-width: 1200px;
 	}
 }
 
@@ -171,10 +169,10 @@
 	@media screen and (min-width: 768px) {
 		max-width: 768px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		left: 295px;
 		bottom: 56px;
-		max-width: 1280px;
+		max-width: 1200px;
 	}
 }
 
@@ -191,11 +189,11 @@
 	@media screen and (min-width: 768px) {
 		max-width: 768px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		width: 200px;
 		font-size: 14px;
 		line-height: 1.42;
-		max-width: 1280px;
+		max-width: 1200px;
 	}
 }
 
@@ -244,12 +242,12 @@
 		width: 322px;
 		max-width: 768px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		top: 52px;
 		left: 475px;
 		height: 538px;
 		width: 538px;
-		max-width: 1280px;
+		max-width: 1200px;
 	}
 }
 
@@ -266,9 +264,9 @@
 		left: 378px;
 		max-width: 768px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		left: 594px;
-		max-width: 1280px;
+		max-width: 1200px;
 	}
 }
 
@@ -281,7 +279,7 @@
 		top: 102px;
 		width: 162px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		top: 171px;
 		width: 272px;
 	}
@@ -301,7 +299,7 @@
 		font-size: 34px;
 		line-height: 0.9;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		margin-bottom: 25px;
 		font-size: 58px;
 		line-height: 0.9;
@@ -318,7 +316,7 @@
 	@media screen and (min-width: 768px) {
 		font-size: 22px;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		font-size: 38px;
 	}
 }
@@ -338,9 +336,9 @@
 	@media screen and (max-width: 767px) {
 		display: none;
 	}
-	@media screen and (min-width: 1280px) {
-		right: 110px;
-	}
+	// @media screen and (min-width: 1200px) {
+	// 	right: 110px;
+	// }
 }
 
 .hero__chain {
@@ -350,7 +348,7 @@
 	@media screen and (max-width: 767px) {
 		display: none;
 	}
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		top: 160px;
 		right: 115px;
 	}
@@ -360,7 +358,7 @@
 	position: relative;
 	z-index: 0;
 	margin-bottom: 23px;
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		margin-bottom: 15px;
 	}
 }
@@ -380,7 +378,7 @@
 	border-radius: 50%;
 	background: end;
 	background-color: $white-color;
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		width: 30px;
 		height: 30px;
 	}
@@ -394,7 +392,7 @@
 	letter-spacing: 4%;
 
 	color: $title-color;
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		margin-bottom: 2px;
 		font-size: 46px;
 		line-height: 1.15;
@@ -407,7 +405,7 @@
 	line-height: 1.25;
 
 	color: $white-color;
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		margin-bottom: 2px;
 		font-size: 14px;
 		line-height: 1.28;
@@ -424,7 +422,7 @@
 	&:not(:last-child) {
 		margin-right: 8px;
 
-		@media screen and (min-width: 1280px) {
+		@media screen and (min-width: 1200px) {
 			margin-right: 15px;
 		}
 	}
@@ -449,7 +447,7 @@
 	font-size: 8px;
 	line-height: 1.25;
 
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		font-size: 14px;
 		line-height: 1.28;
 	}
@@ -466,7 +464,7 @@
 		background-color: $hover-btnred;
 	}
 
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		width: 105px;
 		height: 40px;
 	}
@@ -483,7 +481,7 @@
 		background-color: $hover-btn;
 	}
 
-	@media screen and (min-width: 1280px) {
+	@media screen and (min-width: 1200px) {
 		width: 140px;
 		height: 40px;
 	}
