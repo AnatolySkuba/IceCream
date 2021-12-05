@@ -1,15 +1,113 @@
-.customer-reviews {
-	padding-top: 80px;
-	padding-bottom: 43px;
-}
-
 .customer-reviews__slider {
 	position: relative;
 	padding-bottom: 30px;
+
+	@media screen and (min-width: 768px) {
+		padding-bottom: 35px;
+	}
 }
 
 .customer-reviews__item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.customer-reviews__img {
+	display: block;
+	width: 85px;
+	height: 85px;
+	margin-bottom: 30px;
+}
+
+.customer-reviews__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 52px;
+	background-color: #fafafa;
+}
+
+.customer-reviews__gradient {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	background-image: repeating-linear-gradient(#fafafa, #fafafa 29px, #e1e1e1 0, #e1e1e1 30px);
+}
+
+.customer-reviews__text {
+	display: block;
+	width: 90%;
+	font-size: 12px;
+	line-height: 2.58333;
+	text-align: center;
+	letter-spacing: 0.04em;
+	position: relative;
+	z-index: 2;
+
+	&:before {
+		content: "";
+		display: block;
+		width: 54px;
+		height: 40px;
+		background-image: url(/images/customer-reviews/quotes.png);
+		position: absolute;
+		z-index: -1;
+		top: -15px;
+		left: -10px;
+	}
+}
+
+.customer-reviews__title {
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 32px;
+		height: 4px;
+		background-image: url(/images/customer-reviews/dots.png);
+		position: absolute;
+		top: -18px;
+		left: 40%;
+	}
+}
+
+.customer-review__dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dot:not(:last-child) {
+	margin-right: 18px;
+}
+
+.activedot {
+	display: block;
+	background-color: unset;
+	border-radius: unset;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	width: 12.5px;
+	height: 12px;
+	&:hover,
+	&:focus {
+		transform: scale(1.5);
+	}
+}
+
+.customer-review__dot {
+	width: 12px;
+	height: 12px;
+	background-color: #d9d9d9;
+	border-radius: 50%;
 }
