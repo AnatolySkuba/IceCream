@@ -25,11 +25,17 @@
 	@media screen and (min-width: 768px) {
 		flex-basis: calc((100% - 3 * 20px) / 3);
 		margin-left: 20px;
+		border-radius: 24px;
 	}
 
 	@media screen and (min-width: 1280px) {
 		flex-basis: calc((100% - 3 * 30px) / 3);
 		margin-left: 30px;
+		transition: box-shadow, 350ms;
+
+		&:hover {
+			box-shadow: 0 8px 30px rgb(144 35 62 / 63%);
+		}
 	}
 
 	&:not(:last-child) {
@@ -53,7 +59,7 @@
 	color: $black-text-color;
 
 	background-color: $white-color;
-	box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+	box-shadow: 0px 8px 30px rgba(212, 30, 75, 0.3);
 	border-radius: 24px;
 
 	@media screen and (min-width: 768px) {

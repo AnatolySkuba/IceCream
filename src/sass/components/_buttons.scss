@@ -34,6 +34,7 @@
 	padding: 0 33px;
 	background: $title-color;
 	color: $white-color;
+	transition: background-color 350ms;
 	@media screen and (max-width: 767px) {
 		padding: 0 17px;
 		margin: 0 auto 10px;
@@ -50,6 +51,7 @@
 	padding: 0 40px;
 	background: $white-color;
 	color: $title-color;
+	transition: background-color 350ms;
 	@media screen and (max-width: 767px) {
 		padding: 0 32px;
 		margin: 0 auto;
