@@ -18,26 +18,30 @@
 
 .locations-modal {
 	position: absolute;
-	top: 50%;
+	top: 53%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 80vw;
-	height: 80vh;
+	width: 60vw;
+	height: 70vh;
 	border-radius: 24px;
 	border: 2px solid $section-label-color;
 	background-color: $pink-backgroud;
 	padding: 28px 27px 40px;
 	overflow-y: hidden;
+
+	@media screen and (min-width: 768px) {
+		padding: 25px 37px 40px;
+	}
 }
 
 .locations-modal-map {
 	width: 100%;
-	height: 62vh;
+	height: 51vh;
 	border-radius: 15px;
 }
 
 .locations-modal__title {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	margin-bottom: 20px;
 
