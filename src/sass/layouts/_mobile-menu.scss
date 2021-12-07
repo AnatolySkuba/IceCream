@@ -10,13 +10,14 @@
 	background-color: #e17992;
 	z-index: 99;
 
-	transition: transform $cubic;
+	transition: all 300ms ease-in-out;
+
 	@media screen and (min-width: 768px) {
 		padding: 60px 0;
 	}
 }
 .menu-container.is-open {
-	transform: translateX(0);
+	transition: all 300ms ease-in-out;
 }
 .js-open-menu {
 	border: none;
