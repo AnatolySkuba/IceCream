@@ -35,7 +35,7 @@
 	color: $black-text-color;
 
 	background-color: $white-color;
-	box-shadow: 0px 8px 30px rgba(212, 30, 75, 0.3);
+	box-shadow: 0px 8px 30px rgba(212, 30, 75, 0.2);
 	border-radius: 24px;
 	transition: box-shadow, 350ms;
 
@@ -62,7 +62,7 @@
 	}
 
 	&:hover {
-		box-shadow: 0 5px 20px rgb(184 35 62 / 50%);
+		box-shadow: 0 5px 20px rgb(184 35 62 / 70%);
 	}
 }
 

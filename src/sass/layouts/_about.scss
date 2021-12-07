@@ -1,7 +1,7 @@
 .about {
 	background: #fff5f6;
 	padding-top: 125px;
-	padding-bottom: 40px;
+	// padding-bottom: 40px;
 	text-align: center;
 }
 
@@ -22,7 +22,7 @@
 	}
 }
 
-.about__wrap {
+.about__text--position {
 	@media screen and (max-width: 480px) {
 		width: 200px;
 		margin-left: auto;
@@ -56,7 +56,7 @@
 	}
 
 	&:hover {
-		text-shadow: -1px -1px 0px white, 3px 3px 0px pink, 6px 6px 0px #ffb8ca;
+		text-shadow: -1px -1px 0px white, 3px 3px 0px zzrgb(253, 208, 216), 6px 6px 0px #ffb8ca;
 	}
 }
 
@@ -145,6 +145,12 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.about__content--margin {
+		margin-top: 45px;
+	}
+}
+
 // TEXT ABOUT
 
 .about__text {
@@ -189,10 +195,6 @@
 	}
 }
 
-.about__text--margin-top {
-	margin-top: 45px;
-}
-
 .about__text--position {
 	margin-top: 25px;
 	margin-bottom: 10px;
@@ -204,6 +206,14 @@
 
 .about__text--margin-bottom {
 	margin-bottom: 15px;
+
+	@media screen and (min-width: 767px) {
+		margin-bottom: 65px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		margin-bottom: 45px;
+	}
 }
 
 // BUTTON
