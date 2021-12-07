@@ -22,30 +22,6 @@
 }
 
 .locations__item {
-	@media screen and (min-width: 768px) {
-		flex-basis: calc((100% - 3 * 20px) / 3);
-		margin-left: 20px;
-		border-radius: 24px;
-	}
-
-	@media screen and (min-width: 1280px) {
-		flex-basis: calc((100% - 3 * 30px) / 3);
-		margin-left: 30px;
-		transition: box-shadow, 350ms;
-
-		&:hover {
-			box-shadow: 0 8px 30px rgb(144 35 62 / 63%);
-		}
-	}
-
-	&:not(:last-child) {
-		@media screen and (max-width: 767px) {
-			margin-bottom: 20px;
-		}
-	}
-}
-
-.locations-card {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 44px 15px 42px 26px;
@@ -61,16 +37,32 @@
 	background-color: $white-color;
 	box-shadow: 0px 8px 30px rgba(212, 30, 75, 0.3);
 	border-radius: 24px;
+	transition: box-shadow, 350ms;
 
 	@media screen and (min-width: 768px) {
+		flex-basis: calc((100% - 3 * 20px) / 3);
+		margin-left: 20px;
+		border-radius: 24px;
 		padding: 50px 31px;
 		font-size: 14px;
 	}
 
 	@media screen and (min-width: 1280px) {
+		flex-basis: calc((100% - 3 * 30px) / 3);
+		margin-left: 30px;
 		max-width: 330px;
 		padding: 50px 43px 62px;
 		font-size: 16px;
+	}
+
+	&:not(:last-child) {
+		@media screen and (max-width: 767px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&:hover {
+		box-shadow: 0 5px 20px rgb(184 35 62 / 50%);
 	}
 }
 
