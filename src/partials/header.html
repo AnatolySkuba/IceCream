@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <header class="header" id="myHeader">
   <div class="container" >
     <div class="logo">
@@ -68,7 +68,27 @@
       </ul>
     </div>
     <div class="circle"></div>
-    <div class="milk__box">
+    <div class="milk-box">
+      <picture class="picture-icecream">
+        <source srcset="./images/hero/hero-milk-desc1x.png 1x, ./images/hero/hero-milk-desc2x.png 2x"
+          media="(min-width:1280px)">
+        <source srcset="./images/hero/hero-milk-tablet1x.png 1x, ./images/hero/hero-milk-tablet2x.png 2x"
+          media="(min-width:768px)">
+        <img src="./images/hero/hero-milk-desc1x.png" alt="BioEco">
+      </picture>
+    </div>
+    <div class="milk-text">
+      <p class="hero-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      </p>
+      <button type="button" class="button-item">
+        <svg class="icon-arrow-right" width="8" height="8">
+          <use href="./images/icons.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+    <!-- вариант №2 -->
+    <!-- <div class="milk__box">
       <picture class="picture-icecream">
         <source
           srcset="
@@ -98,7 +118,7 @@
           </svg>
         </button>
       </div>
-    </div>
+    </div> -->
     <div class="hero__icecream">
       <picture class="hero__picture-icecream">
         <source
