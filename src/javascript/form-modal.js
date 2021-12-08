@@ -5,11 +5,14 @@
     closeFormModalBtn: document.querySelector('[data-form-modal-close]'),
     modalForm: document.querySelector('[data-form-modal]'),
   };
-
   refs.openFormModalBtn.addEventListener('click', toggleModal);
   refs.openFormModalBtn2.addEventListener('click', toggleModal);
   refs.closeFormModalBtn.addEventListener('click', toggleModal);
-
+  refs.modalForm.addEventListener('click', (event) => {
+    if (event.currentTarget === event.target) {
+    toggleModal();
+    } 
+});
   function toggleModal() {
     document.body.classList.toggle('form-modal-open');
     refs.modalForm.classList.toggle('is-hidden-modal-form');
