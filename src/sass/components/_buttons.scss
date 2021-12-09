@@ -90,12 +90,4 @@
 	&:focus {
 		background-color: $hover-btn;
 	}
-
-	&:active {
-		box-shadow: inset 0 0 2px 2px rgba(0, 0, 100, 0.3);
-	}
-
-	@media screen and (max-width: 767px) {
-		margin: auto;
-	}
 }
